@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { clearAuth, getAuthUser } from "@/lib/auth";
 import { getCartCount } from "@/lib/cart";
 
-const homeSections = ["home", "story", "signatures", "collection", "atelier", "contact"];
+const homeSections = ["home", "story", "atelier", "contact"];
 
 export default function SiteHeader() {
     const pathname = usePathname();
@@ -99,18 +99,6 @@ export default function SiteHeader() {
                 <nav className="site-nav" aria-label="Main navigation">
                     <Link className={activeSection === "story" ? "is-active" : ""} href="/#story">
                         Story
-                    </Link>
-                    <Link
-                        className={activeSection === "signatures" ? "is-active" : ""}
-                        href="/#signatures"
-                    >
-                        Signatures
-                    </Link>
-                    <Link
-                        className={activeSection === "collection" ? "is-active" : ""}
-                        href="/#collection"
-                    >
-                        Collection
                     </Link>
                     <Link className={pathname === "/shop" ? "is-active" : ""} href="/shop">
                         Shop

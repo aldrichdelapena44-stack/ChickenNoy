@@ -27,28 +27,16 @@ export default function SiteFooter() {
                         <span className="brand__mark">AS</span>
                         <span>AGE OF SCENT</span>
                     </Link>
-                    <p className="muted">
-                        Luxury perfume, cinematic storytelling, and a preserved full-stack
-                        shopping system.
-                    </p>
                 </div>
 
                 <div className="footer-links">
                     <Link href="/#story">Brand Story</Link>
-                    <Link href="/#collection">Collection</Link>
                     <Link href="/shop">Shop</Link>
                     <Link href="/feedback">Feedback</Link>
                     <Link href="/privacy">Privacy Policy</Link>
                     <Link href="/terms">Terms and Conditions</Link>
                 </div>
 
-                <div className="footer-newsletter">
-                    <p className="eyebrow">Atelier Notes</p>
-                    <p className="muted">
-                        Polished amber, rare florals, soft woods, and private consultation for your
-                        next signature fragrance.
-                    </p>
-                </div>
             </div>
         </footer>
     );

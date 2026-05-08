@@ -21,27 +21,33 @@ export const app = express();
 const allowedOrigins = [
     process.env.CORS_ORIGIN,
     process.env.FRONTEND_URL,
-    "https://age-of-scent-perfume.vercel.app",
     "https://largefile-iota.vercel.app",
+    "https://age-of-scent-perfume.vercel.app",
     "http://localhost:3000",
 ].filter(Boolean) as string[];
 
-app.use(
-    cors({
-        origin: (origin, callback) => {
-            if (!origin) return callback(null, true);
+const corsOptions: cors.CorsOptions = {
+    origin: (origin, callback) => {
+        if (!origin) {
+            return callback(null, true);
+        }
 
-            if (allowedOrigins.includes(origin)) {
-                return callback(null, true);
-            }
+        const isAllowedOrigin =
+            allowedOrigins.includes(origin) || origin.endsWith(".vercel.app");
 
-            return callback(new Error(`CORS blocked for origin: ${origin}`));
-        },
-        credentials: true,
-        methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-        allowedHeaders: ["Content-Type", "Authorization"],
-    })
-);
+        if (isAllowedOrigin) {
+            return callback(null, true);
+        }
+
+        return callback(new Error(`CORS blocked for origin: ${origin}`));
+    },
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
 
 app.use(
     rateLimit({

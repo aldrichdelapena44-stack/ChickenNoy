@@ -25,7 +25,7 @@ const fallbackProducts: Product[] = [
         description: "A velvet evening fragrance built around black orchid, smoked vanilla, and warm amber.",
         scentNotes: "Black orchid, vanilla, amber, cedar",
         volume: "50 ml",
-        mood: "Evening signature",
+        mood: "Evening scent",
         price: 3490,
         stock: 18,
         imageUrl: "/images/products/aurum-noir.svg"
@@ -59,24 +59,24 @@ const fallbackProducts: Product[] = [
 const storySteps = [
     {
         number: "01",
-        title: "The first impression",
-        text: "A quiet opening of citrus, petals, and polished glass sets the pace before the fragrance settles into skin."
+        title: "For the Student",
+        text: 'Stay "fresh" from the morning lecture to the late-night group study.'
     },
     {
         number: "02",
-        title: "The heart of the house",
-        text: "Rare florals, soft spice, and textured musks are layered to create depth without heaviness."
+        title: "For the Driver & Worker",
+        text: "A scent that cuts through the smoke and the sweat, keeping you smelling clean and professional through every shift."
     },
     {
         number: "03",
-        title: "The lasting trace",
-        text: "Amber, woods, and vanilla leave a refined signature that feels intimate, modern, and memorable."
+        title: "For Every Pinoy",
+        text: "A high-quality fragrance that doesn't break the bank. Because looking and smelling \"premium\" shouldn't be a luxury—it should be your daily standard"
     }
 ];
 
 export default function HomePage() {
     const [products, setProducts] = useState<Product[]>([]);
-    const [productMessage, setProductMessage] = useState("Loading boutique collection...");
+    const [productMessage, setProductMessage] = useState("Loading perfumes...");
     const [scrollY, setScrollY] = useState(0);
     const [heroAdded, setHeroAdded] = useState(false);
     const [contact, setContact] = useState<ContactState>({
@@ -101,8 +101,8 @@ export default function HomePage() {
             } catch (error) {
                 setProductMessage(
                     error instanceof Error
-                        ? `${error.message} Showing curated preview collection.`
-                        : "Showing curated preview collection."
+                        ? `${error.message} Showing curated preview perfumes.`
+                        : "Showing curated preview perfumes."
                 );
             }
         }
@@ -207,19 +207,18 @@ export default function HomePage() {
 
                 <div className="cinematic-hero__content">
                     <div className="cinematic-hero__copy reveal is-visible">
-                        <p className="eyebrow">AGE OF SCENT / Private Parfumerie</p>
-                        <h1>Fragrance composed like a midnight film.</h1>
+                        <p className="eyebrow">Age of Scent</p>
+                        <h1>The energy of youth in every spray</h1>
                         <p className="hero-lede">
-                            A luxury perfume house for modern collectors, crafted with layered notes,
-                            glowing bottles, and a cinematic shopping experience.
+                            bacause your best years are expertly handled by Age of Scent
                         </p>
 
                         <div className="hero-actions">
-                            <Link href="#collection" className="btn">
-                                Explore Collection
-                            </Link>
-                            <Link href="/shop" className="btn btn--ghost">
+                            <Link href="/shop" className="btn">
                                 Shop Perfumes
+                            </Link>
+                            <Link href="#story" className="btn btn--ghost">
+                                Read Story
                             </Link>
                         </div>
                     </div>
@@ -230,7 +229,6 @@ export default function HomePage() {
                             "--parallax-lift": `${Math.min(scrollY * -0.1, 0)}px`
                         } as CSSProperties}
                     >
-                        <div className="floating-badge">Signature extract</div>
                         <ProductVisual
                             name={heroProduct.name}
                             imageUrl={heroProduct.imageUrl}
@@ -261,18 +259,15 @@ export default function HomePage() {
                 <div className="story-grid">
                     <div className="story-copy reveal">
                         <p className="eyebrow">Brand Story</p>
-                        <h2>Built for presence, not noise.</h2>
+                        <h2>The Fragrance of the Filipino Grind</h2>
                         <p className="muted large-copy">
-                            AGE OF SCENT transforms quiet rituals into memorable signatures. Each
-                            fragrance moves from luminous opening to textured heart, then settles into
-                            a warm, elegant trail that follows you through the night.
+                            Because the hustle never stops, and neither should your scent. Whether you’re a student chasing a degree, a driver navigating the heat of the highway, or a worker keeping the world moving your day is long, demanding, and tough. But no matter how hard the &quot;grind&quot; gets, you deserve to feel at your best.
                         </p>
                     </div>
 
                     <div className="story-panel reveal">
                         <p>
-                            We design each perfume as a sequence: first light, then emotion, then a
-                            lasting memory. The result is premium, intimate, and deliberately slow.
+                            Age of Scent is for the everyday heroes. It’s for the people who wake up before the sun and come home long after it sets. We didn’t just create a perfume; we created a shield against the heat, the dust, and the exhaustion of daily life.
                         </p>
                     </div>
                 </div>
@@ -289,60 +284,6 @@ export default function HomePage() {
                             <p className="muted">{step.text}</p>
                         </article>
                     ))}
-                </div>
-            </section>
-
-            <section className="signature-section section-pad" id="signatures">
-                <div className="split-heading reveal">
-                    <p className="eyebrow">Signature Perfumes</p>
-                    <h2>Three moods. One unmistakable house style.</h2>
-                    <p className="muted">
-                        Deep glass, warm shadows, disciplined spacing, and slow scroll movement create
-                        the same cinematic rhythm as the visual reference.
-                    </p>
-                </div>
-
-                <div className="signature-grid">
-                    {featuredProducts.slice(0, 3).map((product, index) => (
-                        <article
-                            className="signature-card reveal"
-                            key={product.slug}
-                            style={{ "--reveal-delay": `${index * 140}ms` } as CSSProperties}
-                        >
-                            <ProductVisual name={product.name} imageUrl={product.imageUrl} />
-                            <span className="signature-card__index">0{index + 1}</span>
-                            <h3>{product.name}</h3>
-                            <p>{product.scentNotes || product.description}</p>
-                        </article>
-                    ))}
-                </div>
-            </section>
-
-            <section className="collection-section section-pad" id="collection">
-                <div className="collection-backdrop" aria-hidden="true" />
-                <div className="collection-copy reveal">
-                    <p className="eyebrow">Featured Collection</p>
-                    <h2>The velvet collection for nights that linger.</h2>
-                    <p className="muted large-copy">
-                        A scroll-driven showcase of polished bottles, warm amber highlights, and
-                        layered parallax panels. Every card is connected to the existing backend
-                        product API, so admin-managed inventory can continue to flow into the UI.
-                    </p>
-                    <Link href="/shop" className="btn">
-                        View Full Boutique
-                    </Link>
-                </div>
-
-                <div className="collection-visual reveal">
-                    <ProductVisual
-                        name={featuredProducts[1]?.name || fallbackProducts[1].name}
-                        imageUrl={featuredProducts[1]?.imageUrl || fallbackProducts[1].imageUrl}
-                        className="product-visual--feature"
-                    />
-                    <div className="collection-note">
-                        <span>New season</span>
-                        <strong>Floral amber, cashmere musk, polished woods.</strong>
-                    </div>
                 </div>
             </section>
 
