@@ -1,0 +1,143 @@
+╔══════════════════════════════════════════════════════════════╗
+║         CHICKEN NOY DEPLOYMENT CHECKLIST                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+📋 BEFORE YOU START:
+□ Have GitHub account ready
+□ Have email for InfinityFree signup
+□ Have email for MongoDB Atlas signup
+□ Know your backend URL (will get from Render)
+
+═══════════════════════════════════════════════════════════════
+
+🌐 INFINITYFREE SETUP (Frontend):
+
+□ 1. Sign up at infinityfree.com
+□ 2. Create new account/website
+□ 3. Choose subdomain name: _________________.infinityfreeapp.com
+□ 4. Wait for activation (2-5 minutes)
+□ 5. Access Control Panel (cPanel)
+□ 6. Open File Manager
+□ 7. Navigate to htdocs folder
+□ 8. Delete default files (index.html, default.php)
+□ 9. Upload CSS folder
+□ 10. Upload images folder
+□ 11. Upload JS folder
+□ 12. Upload Page folder
+□ 13. Upload .htaccess file
+□ 14. Upload manifest.json
+□ 15. Upload robots.txt
+□ 16. Upload service-worker.js
+□ 17. Verify all files uploaded correctly
+
+═══════════════════════════════════════════════════════════════
+
+🚀 RENDER.COM SETUP (Backend):
+
+□ 1. Sign up at render.com with GitHub
+□ 2. Click "New +" → "Web Service"
+□ 3. Connect GitHub repository (or upload code)
+□ 4. Set Name: chickennoy-backend
+□ 5. Set Environment: Node
+□ 6. Set Build Command: npm install
+□ 7. Set Start Command: npm start
+□ 8. Choose Free plan
+□ 9. Add Environment Variable: MONGO_URI
+□ 10. Add Environment Variable: PORT = 10000
+□ 11. Add Environment Variable: JWT_SECRET
+□ 12. Click "Create Web Service"
+□ 13. Wait for deployment (5-10 minutes)
+□ 14. Copy backend URL: _________________________________
+
+═══════════════════════════════════════════════════════════════
+
+🗄️ MONGODB ATLAS SETUP (Database):
+
+□ 1. Sign up at mongodb.com/cloud/atlas
+□ 2. Create new project: ChickenNoy
+□ 3. Build a cluster (FREE M0 Sandbox)
+□ 4. Choose AWS provider
+□ 5. Choose closest region
+□ 6. Name cluster: ChickenNoy
+□ 7. Create Database User:
+    Username: chickennoy
+    Password: _________________ (save this!)
+□ 8. Add IP Address: 0.0.0.0/0 (allow from anywhere)
+□ 9. Click "Connect" → "Connect your application"
+□ 10. Copy connection string
+□ 11. Replace <password> with your actual password
+□ 12. Add to Render environment variables
+
+═══════════════════════════════════════════════════════════════
+
+🔗 CONNECT FRONTEND TO BACKEND:
+
+□ 1. Visit your InfinityFree site
+□ 2. Add ?apiBase=YOUR_BACKEND_URL to URL
+    Example: https://yoursite.infinityfreeapp.com/?apiBase=https://chickennoy-backend.onrender.com
+□ 3. Verify it saved (check localStorage in browser console)
+
+OR
+
+□ 1. Press Ctrl+Shift+D on your site
+□ 2. Enter backend URL
+□ 3. Click OK
+
+═══════════════════════════════════════════════════════════════
+
+✅ TESTING:
+
+□ 1. Visit your InfinityFree site
+□ 2. Homepage loads correctly
+□ 3. Images display properly
+□ 4. CSS styles applied
+□ 5. Menu page loads
+□ 6. Menu items load from backend
+□ 7. Register new account works
+□ 8. Login works
+□ 9. Add to cart works
+□ 10. Cart displays items correctly
+□ 11. Checkout works
+□ 12. Order is created
+□ 13. Dashboard shows orders
+□ 14. Test on mobile device
+□ 15. Test all navigation links
+
+═══════════════════════════════════════════════════════════════
+
+📱 MOBILE TESTING:
+
+□ 1. Open site on phone
+□ 2. Menu button works
+□ 3. All pages are responsive
+□ 4. Images load on mobile
+□ 5. Forms work on mobile
+□ 6. Checkout works on mobile
+
+═══════════════════════════════════════════════════════════════
+
+🎨 OPTIONAL - CUSTOM DOMAIN:
+
+□ 1. Buy domain from Namecheap/GoDaddy
+□ 2. Add domain in InfinityFree cPanel
+□ 3. Update DNS records at domain registrar
+□ 4. Wait 24-48 hours for DNS propagation
+
+═══════════════════════════════════════════════════════════════
+
+📝 IMPORTANT URLS TO SAVE:
+
+Frontend URL: _____________________________________________
+Backend URL: ______________________________________________
+MongoDB Connection: _______________________________________
+Admin Email: ______________________________________________
+Admin Password: ___________________________________________
+
+═══════════════════════════════════════════════════════════════
+
+🎉 CONGRATULATIONS! YOUR SITE IS LIVE!
+
+Share your site with customers:
+https://_________________________________.infinityfreeapp.com
+
+═══════════════════════════════════════════════════════════════

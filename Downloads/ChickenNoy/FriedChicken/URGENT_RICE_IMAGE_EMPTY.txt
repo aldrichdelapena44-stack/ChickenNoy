@@ -1,0 +1,89 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║              ⚠️  URGENT: RICE IMAGE IS EMPTY! ⚠️             ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+PROBLEM FOUND:
+❌ rice-cup.png exists BUT is 0 bytes (empty file)
+❌ No actual image data in the file
+❌ That's why it's not displaying!
+
+═══════════════════════════════════════════════════════════════
+
+THE IMAGE YOU WANT:
+- The promotional rice image
+- Shows "1 CUP OF RICE" text
+- White rice with green onions
+- Chicken Noy branding
+- Dark background with fried chicken
+- Professional marketing photo
+
+═══════════════════════════════════════════════════════════════
+
+HOW TO FIX:
+
+STEP 1: DELETE THE EMPTY FILE
+   Location: c:\FriedChicken\Chickenoy\Frontend\images\rice-cup.png
+   (Right-click → Delete)
+
+STEP 2: SAVE THE ACTUAL IMAGE
+   - Find the rice promotional image (the one you just showed)
+   - Right-click on the image
+   - Select "Save Image As..."
+   - Name it: rice-cup.png
+   - Save to: c:\FriedChicken\Chickenoy\Frontend\images\
+
+STEP 3: VERIFY FILE SIZE
+   - Right-click on rice-cup.png
+   - Select "Properties"
+   - Size should be: 50 KB - 500 KB (NOT 0 bytes!)
+
+STEP 4: REFRESH BROWSER
+   - Open cart page
+   - Press: Ctrl + F5
+
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT NOTES:
+
+✓ The image file must contain actual image data
+✓ File size must be greater than 0 bytes
+✓ Typical PNG size: 50-500 KB
+✓ Make sure you're saving the actual image, not a shortcut
+
+═══════════════════════════════════════════════════════════════
+
+WHERE TO GET THE IMAGE:
+
+Option 1: From your files
+   - Find where you have the rice promotional image saved
+   - Copy it to the images folder
+   - Rename to: rice-cup.png
+
+Option 2: From design software
+   - Export the rice image as PNG
+   - Save as: rice-cup.png
+   - Place in: Chickenoy/Frontend/images/
+
+Option 3: From online source
+   - Download the rice image
+   - Save as: rice-cup.png
+   - Place in: Chickenoy/Frontend/images/
+
+═══════════════════════════════════════════════════════════════
+
+VERIFICATION:
+
+After saving, check:
+1. File size > 0 bytes ✓
+2. Can open image in image viewer ✓
+3. Shows the rice promotional image ✓
+4. File is in correct folder ✓
+
+═══════════════════════════════════════════════════════════════
+
+Once you save the actual image file (not empty), refresh the
+cart page and it will display perfectly! 🍚🍗
+
+═══════════════════════════════════════════════════════════════

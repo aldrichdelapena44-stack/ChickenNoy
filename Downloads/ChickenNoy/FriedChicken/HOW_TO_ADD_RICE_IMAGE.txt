@@ -1,0 +1,58 @@
+═══════════════════════════════════════════════════════════════
+  HOW TO ADD YOUR RICE CUP IMAGE - SIMPLE STEPS
+═══════════════════════════════════════════════════════════════
+
+CURRENT STATUS:
+✅ Rice addon feature is WORKING
+✅ Placeholder image is showing (rice emoji)
+✅ Yellow price text is showing
+✅ All functionality works perfectly
+⏳ Waiting for your actual rice image
+
+═══════════════════════════════════════════════════════════════
+
+TO ADD YOUR RICE IMAGE:
+
+STEP 1: Find your rice cup image
+        (The one with white rice and green onions)
+
+STEP 2: Save it with this EXACT name:
+        rice-cup.png
+
+STEP 3: Save it in this EXACT location:
+        c:\FriedChicken\Chickenoy\Frontend\images\
+
+STEP 4: Refresh your cart page
+        Press: Ctrl + F5
+
+DONE! Your rice image will now appear! ✅
+
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT NOTES:
+
+✓ Filename must be: rice-cup.png (lowercase, with hyphen)
+✓ Must be PNG format
+✓ Must be in the images folder
+✓ No spaces in filename
+
+═══════════════════════════════════════════════════════════════
+
+WHAT'S SHOWING NOW:
+- Rice emoji placeholder (🍚)
+- "RICE" and "1 CUP" text
+- Yellow border
+- Fully functional
+
+WHAT WILL SHOW AFTER:
+- Your beautiful rice cup photo
+- White rice with green onions
+- Professional appearance
+- Even better!
+
+═══════════════════════════════════════════════════════════════
+
+The placeholder works great, but your actual image will look
+even better! Just save it and refresh! 🍚🍗
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,4 @@
+node_modules/
+
+# Optional local override
+.chickenoy-local

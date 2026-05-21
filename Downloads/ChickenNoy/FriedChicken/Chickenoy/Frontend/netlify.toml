@@ -1,0 +1,158 @@
+[build]
+  publish = "Frontend"
+  command = ""
+
+[[redirects]]
+  from = "/admin"
+  to = "/Page/admin.html"
+  status = 200
+
+[[redirects]]
+  from = "/admin.html"
+  to = "/Page/admin.html"
+  status = 200
+
+[[redirects]]
+  from = "/menu"
+  to = "/Page/menu.html"
+  status = 200
+
+[[redirects]]
+  from = "/menu.html"
+  to = "/Page/menu.html"
+  status = 200
+
+[[redirects]]
+  from = "/cart"
+  to = "/Page/cart.html"
+  status = 200
+
+[[redirects]]
+  from = "/cart.html"
+  to = "/Page/cart.html"
+  status = 200
+
+[[redirects]]
+  from = "/checkout"
+  to = "/Page/checkout.html"
+  status = 200
+
+[[redirects]]
+  from = "/checkout.html"
+  to = "/Page/checkout.html"
+  status = 200
+
+[[redirects]]
+  from = "/dashboard"
+  to = "/Page/dashboard.html"
+  status = 200
+
+[[redirects]]
+  from = "/dashboard.html"
+  to = "/Page/dashboard.html"
+  status = 200
+
+[[redirects]]
+  from = "/profile"
+  to = "/Page/profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/profile.html"
+  to = "/Page/profile.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/Page/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/Page/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/Page/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/about.html"
+  to = "/Page/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/delivery-information"
+  to = "/Page/delivery-information.html"
+  status = 200
+
+[[redirects]]
+  from = "/delivery-information.html"
+  to = "/Page/delivery-information.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcash-payment"
+  to = "/Page/gcash-payment.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcash-payment.html"
+  to = "/Page/gcash-payment.html"
+  status = 200
+
+[[redirects]]
+  from = "/login"
+  to = "/Page/login.html"
+  status = 200
+
+[[redirects]]
+  from = "/login.html"
+  to = "/Page/login.html"
+  status = 200
+
+[[redirects]]
+  from = "/register"
+  to = "/Page/register.html"
+  status = 200
+
+[[redirects]]
+  from = "/register.html"
+  to = "/Page/register.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/Page/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to = "/Page/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms-conditions"
+  to = "/Page/terms-conditions.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms-conditions.html"
+  to = "/Page/terms-conditions.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/Page/index.html"
+  status = 200
+
+[headers]
+  [[headers.for="/service-worker.js"]]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+  [[headers.for="/JS/*"]]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+  [[headers.for="/CSS/*"]]
+    Cache-Control = "public, max-age=0, must-revalidate"

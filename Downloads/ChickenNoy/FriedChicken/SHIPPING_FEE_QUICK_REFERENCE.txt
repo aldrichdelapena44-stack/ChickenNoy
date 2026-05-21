@@ -1,0 +1,64 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║         ✅ SHIPPING FEE UPDATED - ₱10 FOR ₱25 CHICKEN        ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+NEW SHIPPING RULES:
+
+₱25 Chicken → ₱10 shipping ✅
+₱320, ₱500, ₱1000 → ₱40 shipping
+Other items → ₱0 shipping (free)
+
+═══════════════════════════════════════════════════════════════
+
+EXAMPLES:
+
+1. Only ₱25 Chicken:
+   Subtotal: ₱25
+   Shipping: ₱10
+   Total: ₱35 ✅
+
+2. ₱25 Chicken + 2 Rice (₱30):
+   Subtotal: ₱55
+   Shipping: ₱10
+   Total: ₱65 ✅
+
+3. 3× ₱25 Chicken:
+   Subtotal: ₱75
+   Shipping: ₱10 (flat fee)
+   Total: ₱85 ✅
+
+4. ₱25 Chicken + ₱320 Item:
+   Subtotal: ₱345
+   Shipping: ₱40 (expensive item priority)
+   Total: ₱385 ✅
+
+═══════════════════════════════════════════════════════════════
+
+TO SEE CHANGES:
+
+1. Open Cart page
+2. Press: Ctrl + F5
+3. Add ₱25 chicken
+4. Check shipping fee: ₱10 ✅
+
+═══════════════════════════════════════════════════════════════
+
+WHAT YOU'LL SEE:
+
+ORDER SUMMARY
+─────────────────
+Subtotal    ₱25
+Shipping    ₱10  ← NEW!
+Items         1
+─────────────────
+Total       ₱35
+
+═══════════════════════════════════════════════════════════════
+
+STATUS: ✅ READY!
+
+Just refresh and test! 🍗📦
+
+═══════════════════════════════════════════════════════════════

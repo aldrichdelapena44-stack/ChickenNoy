@@ -1,0 +1,57 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/service-worker.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/JS/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/CSS/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/Page/index.html" },
+    { "source": "/index", "destination": "/Page/index.html" },
+    { "source": "/index.html", "destination": "/Page/index.html" },
+    { "source": "/menu", "destination": "/Page/menu.html" },
+    { "source": "/menu.html", "destination": "/Page/menu.html" },
+    { "source": "/login", "destination": "/Page/login.html" },
+    { "source": "/login.html", "destination": "/Page/login.html" },
+    { "source": "/register", "destination": "/Page/register.html" },
+    { "source": "/register.html", "destination": "/Page/register.html" },
+    { "source": "/dashboard", "destination": "/Page/dashboard.html" },
+    { "source": "/dashboard.html", "destination": "/Page/dashboard.html" },
+    { "source": "/profile", "destination": "/Page/profile.html" },
+    { "source": "/profile.html", "destination": "/Page/profile.html" },
+    { "source": "/admin", "destination": "/Page/admin.html" },
+    { "source": "/admin.html", "destination": "/Page/admin.html" },
+    { "source": "/contact", "destination": "/Page/contact.html" },
+    { "source": "/contact.html", "destination": "/Page/contact.html" },
+    { "source": "/cart", "destination": "/Page/cart.html" },
+    { "source": "/cart.html", "destination": "/Page/cart.html" },
+    { "source": "/checkout", "destination": "/Page/checkout.html" },
+    { "source": "/checkout.html", "destination": "/Page/checkout.html" },
+    { "source": "/gcash-payment", "destination": "/Page/gcash-payment.html" },
+    { "source": "/gcash-payment.html", "destination": "/Page/gcash-payment.html" },
+    { "source": "/about", "destination": "/Page/about.html" },
+    { "source": "/about.html", "destination": "/Page/about.html" },
+    { "source": "/privacy-policy", "destination": "/Page/privacy-policy.html" },
+    { "source": "/privacy-policy.html", "destination": "/Page/privacy-policy.html" },
+    { "source": "/terms-conditions", "destination": "/Page/terms-conditions.html" },
+    { "source": "/terms-conditions.html", "destination": "/Page/terms-conditions.html" },
+    { "source": "/delivery-information", "destination": "/Page/delivery-information.html" },
+    { "source": "/delivery-information.html", "destination": "/Page/delivery-information.html" }
+  ]
+}

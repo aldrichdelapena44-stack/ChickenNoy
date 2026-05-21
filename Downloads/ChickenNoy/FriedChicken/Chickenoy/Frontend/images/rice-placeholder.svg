@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Dark background -->
+  <rect fill="#1a1a1a" width="200" height="200" rx="12"/>
+  
+  <!-- White circle for rice -->
+  <circle cx="100" cy="100" r="70" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Rice emoji -->
+  <text x="100" y="115" font-size="50" text-anchor="middle">🍚</text>
+  
+  <!-- "RICE" text -->
+  <text x="100" y="155" font-size="16" text-anchor="middle" fill="#ffbe0b" font-weight="bold" font-family="system-ui">RICE</text>
+  
+  <!-- "1 CUP" text -->
+  <text x="100" y="175" font-size="12" text-anchor="middle" fill="#ffbe0b" font-family="system-ui">1 CUP</text>
+  
+  <!-- Yellow border -->
+  <rect fill="none" stroke="#ffbe0b" stroke-width="3" width="194" height="194" x="3" y="3" rx="12"/>
+</svg>

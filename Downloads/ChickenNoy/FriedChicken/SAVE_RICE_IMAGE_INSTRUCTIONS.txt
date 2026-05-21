@@ -1,0 +1,82 @@
+═══════════════════════════════════════════════════════════════
+  HOW TO ADD THE RICE CUP IMAGE
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT: The rice image you provided needs to be saved manually!
+
+STEP-BY-STEP INSTRUCTIONS:
+
+1. LOCATE THE RICE IMAGE
+   - You provided a beautiful rice cup image
+   - It shows white rice with green onions
+   - Professional food photography
+
+2. SAVE THE IMAGE
+   - Right-click on the rice image
+   - Select "Save Image As..."
+   - Name it EXACTLY: rice-cup.png
+   - Save location: c:\FriedChicken\Chickenoy\Frontend\images\
+
+3. VERIFY THE FILENAME
+   ✓ Must be: rice-cup.png (lowercase)
+   ✗ NOT: Rice-Cup.png
+   ✗ NOT: rice_cup.png
+   ✗ NOT: ricecup.png
+
+4. VERIFY THE LOCATION
+   Full path should be:
+   c:\FriedChicken\Chickenoy\Frontend\images\rice-cup.png
+
+5. REFRESH THE CART PAGE
+   - Open cart page in browser
+   - Press Ctrl+F5 (hard refresh)
+   - Rice image should now appear!
+
+═══════════════════════════════════════════════════════════════
+
+CURRENT STATUS:
+
+✅ Code is ready and waiting for image
+✅ Fallback SVG placeholder is showing (rice emoji)
+✅ Yellow price text is working
+✅ All functionality is working
+⏳ Waiting for rice-cup.png to be saved
+
+═══════════════════════════════════════════════════════════════
+
+WHAT YOU'LL SEE:
+
+Before saving image:
+- Rice emoji (🍚) placeholder with "RICE" text
+
+After saving image:
+- Your beautiful rice cup photo
+- White rice with green onions
+- Professional appearance
+
+═══════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING:
+
+If image still doesn't show after saving:
+
+1. Check filename is exactly: rice-cup.png
+2. Check it's in: Chickenoy/Frontend/images/
+3. Clear browser cache (Ctrl+Shift+Delete)
+4. Hard refresh page (Ctrl+F5)
+5. Check browser console for errors (F12)
+
+═══════════════════════════════════════════════════════════════
+
+ALTERNATIVE: If you can't save the image manually, I can help you:
+
+1. Download the image from the source
+2. Use a different rice image from free stock photos
+3. Use the current placeholder (works fine!)
+
+═══════════════════════════════════════════════════════════════
+
+Need help? The placeholder will work perfectly until you add
+the real image. Everything else is functional! 🍚🍗
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,21 @@
+RICE IMAGE PLACEHOLDER
+
+Please replace this file with a realistic rice image named "rice-cup.png"
+
+Image Requirements:
+- Filename: rice-cup.png
+- Format: PNG with transparent background (or white background)
+- Size: 300x300px minimum
+- Content: A cup or bowl of white steamed rice
+- Style: Professional food photography, well-lit, appetizing
+- Angle: Top-down or slight angle view
+
+Suggested sources:
+1. Free stock photo sites (Unsplash, Pexels, Pixabay)
+2. Search for: "white rice cup", "steamed rice bowl", "rice serving"
+3. Or take a photo of actual rice
+
+Once you have the image:
+1. Save it as "rice-cup.png" in this folder (Chickenoy/Frontend/images/)
+2. Delete this .txt file
+3. The rice addon feature will automatically use the image

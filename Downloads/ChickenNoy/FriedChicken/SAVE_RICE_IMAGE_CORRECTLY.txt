@@ -1,0 +1,130 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║         HOW TO SAVE THE RICE IMAGE CORRECTLY                  ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+THE IMAGE YOU NEED TO SAVE:
+✓ The promotional rice image you just showed
+✓ Shows "1 CUP OF RICE" in large text
+✓ White rice cup with green onions on top
+✓ Chicken Noy logo in top left
+✓ Fried chicken on the right side
+✓ Dark background with flames
+✓ Marketing badges and text
+
+═══════════════════════════════════════════════════════════════
+
+METHOD 1: SAVE FROM YOUR COMPUTER
+-----------------------------------------
+
+If you have this image saved somewhere on your computer:
+
+1. Find the rice image file
+2. Copy it (Ctrl+C)
+3. Go to: c:\FriedChicken\Chickenoy\Frontend\images\
+4. Paste it (Ctrl+V)
+5. Rename to: rice-cup.png
+6. Done! ✓
+
+═══════════════════════════════════════════════════════════════
+
+METHOD 2: SAVE FROM BROWSER/CHAT
+-----------------------------------------
+
+If the image is in your browser or chat:
+
+1. Right-click on the rice image
+2. Select "Save Image As..." or "Save Picture As..."
+3. Navigate to: c:\FriedChicken\Chickenoy\Frontend\images\
+4. Change filename to: rice-cup.png
+5. Make sure "Save as type" is: PNG Image (*.png)
+6. Click "Save"
+7. Done! ✓
+
+═══════════════════════════════════════════════════════════════
+
+METHOD 3: DRAG AND DROP
+-----------------------------------------
+
+If you can see the image file:
+
+1. Open folder: c:\FriedChicken\Chickenoy\Frontend\images\
+2. Drag the rice image into this folder
+3. Rename to: rice-cup.png
+4. Done! ✓
+
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT REQUIREMENTS:
+
+✓ Filename must be EXACTLY: rice-cup.png (lowercase)
+✓ File must be PNG format
+✓ File size must be > 0 bytes (typically 50-500 KB)
+✓ Must be in: Chickenoy/Frontend/images/ folder
+✓ Must be the actual image file (not a shortcut)
+
+═══════════════════════════════════════════════════════════════
+
+VERIFY THE FILE:
+
+After saving, check these:
+
+1. Right-click on rice-cup.png
+2. Select "Properties"
+3. Check:
+   - Size: Should be 50 KB - 500 KB (NOT 0 bytes!)
+   - Type: PNG Image
+   - Location: ...Chickenoy\Frontend\images\
+
+4. Double-click the file
+   - Should open in image viewer
+   - Should show the rice promotional image
+
+═══════════════════════════════════════════════════════════════
+
+AFTER SAVING:
+
+1. Open your cart page in browser
+2. Press: Ctrl + F5 (hard refresh)
+3. Your rice image should now display! ✓
+
+═══════════════════════════════════════════════════════════════
+
+COMMON MISTAKES TO AVOID:
+
+❌ Saving as .jpg instead of .png
+❌ Wrong filename (Rice-Cup.png, rice_cup.png)
+❌ Saving in wrong folder
+❌ Creating empty file (0 bytes)
+❌ Saving a shortcut instead of actual file
+
+✓ Save as: rice-cup.png (lowercase, hyphen)
+✓ Save in: Chickenoy/Frontend/images/
+✓ File size: > 0 bytes
+✓ Actual image file
+
+═══════════════════════════════════════════════════════════════
+
+NEED HELP?
+
+If you're having trouble saving the image:
+
+1. Take a screenshot of where you see the image
+2. Use Windows Snipping Tool to capture it
+3. Save the screenshot as: rice-cup.png
+4. Place in: Chickenoy/Frontend/images/
+
+Or:
+
+1. Find any rice cup photo online
+2. Download it
+3. Save as: rice-cup.png
+4. Place in: Chickenoy/Frontend/images/
+
+═══════════════════════════════════════════════════════════════
+
+The code is ready and waiting! Just save the actual image file
+and it will display perfectly! 🍚🍗
+
+═══════════════════════════════════════════════════════════════
