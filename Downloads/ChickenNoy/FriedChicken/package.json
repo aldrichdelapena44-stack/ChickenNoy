@@ -1,0 +1,13 @@
+{
+  "name": "chickenoy-backend",
+  "version": "1.0.0",
+  "description": "Chickenoy backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "mongodb": "^7.2.0"
+  }
+}
