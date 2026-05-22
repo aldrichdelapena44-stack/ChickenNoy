@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Jicjic's Coffee Jelly</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+
+                <div class="logo-icon">☕</div>
+
+                <div class="logo-text">
+                    <div class="logo-name">Jicjic's</div>
+                    <div class="logo-subtitle">Coffee Jelly</div>
+                </div>
+
+            </a>
+
+            <div class="nav-links">
+
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div class="nav-actions">
+
+                <a href="cart.html" class="cart-link">
+                    🛒 Cart
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="products-section">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h1>Our Products</h1>
+
+                <p>
+                    Discover our delicious range of coffee jelly treats,
+                    crafted with love and premium ingredients
+                </p>
+
+            </div>
+
+            <div class="products-grid">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="images/coffee-jelly.jpg"
+                             alt="Signature Coffee Jelly">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>Signature Coffee Jelly</h3>
+
+                        <p>
+                            Premium creamy coffee jelly made with rich
+                            coffee flavor and condensed milk.
+                        </p>
+
+                        <div class="product-footer">
+
+                            <span class="product-price">₱40</span>
+
+                            <button
+                                class="btn btn-primary btn-sm"
+                                <button onclick="addToCart()">
+    Add to Cart
+</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                &copy; 2026 Jicjic's Coffee Jelly.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+<script>
+
+async function addToCart() {
+
+    const product = {
+        customerName: "Jeric Danas",
+        location: "Jose Panganiban",
+        productName: "Signature Coffee Jelly",
+        price: 40,
+        quantity: 1
+    };
+
+    try {
+
+        const response = await fetch("http://localhost:5000/add-to-cart", {
+
+            method: "POST",
+
+            headers: {
+                "Content-Type": "application/json"
+            },
+
+            body: JSON.stringify(product)
+
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+
+            alert("Added to cart!");
+
+        } else {
+
+            alert(data.message);
+
+        }
+
+    } catch (error) {
+
+        console.log(error);
+
+        alert("Connection failed!");
+
+    }
+
+}
+
+</script>
+</body>
+</html>

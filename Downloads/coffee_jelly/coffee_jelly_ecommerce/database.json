@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1779334701056,
+      "name": "Jeric Pacumbala Danas",
+      "email": "jericdanas@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 1779341852578,
+      "name": "Jeric Pacumbala Danas",
+      "email": "jericdanas055@gmail.com",
+      "password": "654321"
+    }
+  ],
+  "orders": [],
+  "messages": [],
+  "cart": [
+    {
+}
+  ]
+}
